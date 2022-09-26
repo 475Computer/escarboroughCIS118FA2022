@@ -7,6 +7,8 @@ p,li {line-height: 1.25em;}
 
 p>em {font-weight: bold;}
 
+ul #nav {background-color: #dddddd;}
+
 a {color: #008b14;}
 a:link {color: #008b14;}
 a:visited {color: #649a00}
