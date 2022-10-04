@@ -31,4 +31,11 @@
                 font-size: 12px;
                 line-height: 1.25;}
 
-a {color: yellow;}
+        a {color: yellow;}
+
+        span.misspelledText {text-decoration: line-through wavy;}
+
+        span.underlineText {text-decoration: underline;}
+
+        span.emphaticText {text-transform: uppercase;
+                        font-weight: bolder;}
