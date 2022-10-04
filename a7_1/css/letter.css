@@ -15,4 +15,20 @@
         #greeting {font-size: 26px;
                      line-height: 1.5}
 
+        .bodyText {text-indent: 50px;
+                      line-height: 1;}
         
+        #farewell {text-align: right;
+                      font-size: 26px;
+                      line-height: 1;}
+
+        #signature {text-align: right;
+                        font-size: 40px;
+                        line-height: 1;}
+
+        footer {color: yellow;
+                font-family: Arial;
+                font-size: 12px;
+                line-height: 1.25;}
+
+a link {color: yellow;}
