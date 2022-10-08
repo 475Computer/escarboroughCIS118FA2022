@@ -41,3 +41,14 @@ th, td {padding: 4px;}
 #header img {border: 1px solid #000000;
             background-color: #FFFFFF;
             padding: 5px;}
+
+blockquote {font-size: 2.5em;
+            width: 16.5em;
+            margin: 0 auto;
+            padding: 10px 10px 10px 45px;
+            color: #777;
+            font-family: Georgia, serif;
+            font-style: oblique;
+            background-image: url(../images/bigquote.png);
+            background-repeat: no-repeat;
+            background-position: left 8%;}
