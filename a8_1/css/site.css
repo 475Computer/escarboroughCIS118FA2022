@@ -11,12 +11,15 @@ body {background-color: #cccccc;
 
 h1,h2,h3,h4,h5,h6 {font-family: Georgia, serif;}
 
+p {margin-bottom: .625em;}
+
 p,li {line-height: 1.25em;}
 
 p>em {font-weight: bold;}
 
-<!--It works, but it is not needed. Remember you can only have one id with the value of nav on a page, so you don't need the ul. #nav is enough.-->
-#nav {background-color: #dddddd;}
+#nav {background-color: #dddddd;
+      padding: 5px 10px;
+      margin-bottom: 10px;}
 
 a {color: #008b14;}
 a:link {color: #008b14;}
