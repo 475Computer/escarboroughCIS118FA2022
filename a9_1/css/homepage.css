@@ -1,10 +1,10 @@
-#header {height: 160px;
+#header {height: 160px;}
 
 img {float: left;
      margin-right: 20px;}
   
 #nav {padding: 0;
-     background-color: transparent;
+     background-color: transparent;}
     
 #nav li {display: inline-block;
          position: relative;
