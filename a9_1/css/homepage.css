@@ -40,3 +40,7 @@ li a:hover {background-color: #aaa;}
         background-repeat: no-repeat;
         background-position: center 50%;}
 
+.js a {background-image: url("../images/icon-js.png");
+       background-repeat: no-repeat;
+       background-position: center 50%;}
+
