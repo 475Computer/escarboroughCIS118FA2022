@@ -6,3 +6,12 @@
         margin-right: 10px;
         margin-left: 10px;
         float: left;}
+
+#secondary {width: 300px;
+            margin-right: 10px;
+            margin-left: 10px;
+            float: left;}
+
+dd {line-height: 1.5em;
+            margin-bottom: 1.5em;}
+
