@@ -31,7 +31,7 @@ dd {line-height: 1.5em;
 
 #fluid img {width: 100%;}
 
-@media and screen and (max-width: 800px)
+@media screen and (max-width: 800px)
             {
                         #fluid #container {width: 90%;
                                                 min-width: 0;}
