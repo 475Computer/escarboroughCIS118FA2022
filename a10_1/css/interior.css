@@ -33,12 +33,12 @@ dd {line-height: 1.5em;
 
 @media screen and (max-width: 800px)
             {
-                        #fluid #container {width: 90%;
+                        #container {width: 90%;
                                                 min-width: 0;}
-                        #fluid #main {width: auto;
+                        #main {width: auto;
                                                 float: none;
                                                 background-color: #fff;}
-                        #fluid #secondary {width: auto;
+                        #secondary {width: auto;
                                                 float: none;}
             }
 
