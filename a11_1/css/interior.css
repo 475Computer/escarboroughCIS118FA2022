@@ -25,7 +25,7 @@ ul#nav {background-color: transparent;
             width: 350px;
             margin-top: 20px;}
 
-ul#nav li {display: inline;
+ul#nav li {display: inline-block;
             padding: 5px 10px;
             background-color: #ddd;
             border-radius: 4px;
