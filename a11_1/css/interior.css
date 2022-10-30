@@ -35,7 +35,7 @@ ul#nav li {display: inline-block;
 
 ul#nav a:hover {background-color: #eee;}
 
-ul#nav .current {background-color: #fff;}
+ul#nav .current a {background-color: #fff;}
 
 .content {clear: both;}
 
