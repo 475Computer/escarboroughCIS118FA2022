@@ -64,5 +64,10 @@ ul#nav .current a {background-color: #fff;}
                                                 background-color: #fff;}
                         #fluid #secondary {width: auto;
                                                 float: none;}
+                        #fluid ul#nav {margin-top: 0;
+                                                width: 98%;
+                                                padding: 4px;}
+                        #fluid ul#nav li {display: block;
+                                                text-align: center;}
             }
 
