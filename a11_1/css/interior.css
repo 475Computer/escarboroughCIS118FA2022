@@ -33,9 +33,9 @@ ul#nav li {display: inline-block;
             text-decoration: none;
             box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;}
 
-ul#nav a:hover {background-color: #eee;}
+ul#nav li:hover {background-color: #eee;}
 
-ul#nav .current a {background-color: #fff;}
+ul#nav .current {background-color: #fff;}
 
 .content {clear: both;}
 
