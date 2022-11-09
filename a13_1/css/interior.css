@@ -57,6 +57,9 @@ ul#nav .current a {background-color: #fff;}
 
 #fluid img {width: 100%;}
 
+footer {text-align: center;
+            padding: 3px;}
+
 @media screen and (max-width: 800px)
             {
                         #fluid #container {width: 90%;
