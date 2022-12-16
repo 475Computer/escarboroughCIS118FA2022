@@ -1,0 +1,198 @@
+/* Fixed Layout */
+
+body {
+	background-image: url("../images/dark-green-leaf-background3.jpg");
+	background-repeat: repeat;
+	background-color: black;
+}
+
+div#container {
+	background-color: #4e342e;
+	padding: 5px;
+}
+
+#header {
+  background-color: #222523;
+  position: relative;
+  font-family: Candara, Arial, Sans-serif;
+  color: #d8d4d8;
+}
+
+div#header {
+  display: block;
+  width: auto;
+  height: auto;
+  margin: 15px;
+  border: 5px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+div#header h2 {
+	text-align: left;
+	font-size: 16px;
+	font-weight: lighter;
+}
+	
+
+#nav {
+	width: auto;
+	box-sizing: border-box;
+}
+
+#nav a {
+  display: block;
+  height: auto;
+  text-align: center;
+  background-color: #6e7271;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+  position: relative;
+  padding: 10px;
+  margin: 5px;
+  border-style: ridge;
+  box-shadow: 0px 2px 3px black;
+}
+
+#nav li {
+  position: relative;
+	display: inline-block;
+	margin: auto;
+	font-family: Arial Rounded MT, Arial, Sans-serif;
+}
+
+li a:hover {
+  box-shadow: 0px 4px 3px black;
+}
+
+#nav a:hover {
+  box-shadow: 0px 4px 3px black;
+  background-color: #8c908f;
+  border-width: thin;
+  font-size: 22px;
+}
+
+#nav a:focus {
+  box-shadow: 0px 4px 3px black;
+  background-color: #8c908f;
+  border-width: thin;
+  font-size: 22px;
+}
+
+a {
+	color: #0ce1f0;
+}
+
+div#main, div#secondary {
+	background-color: #222523;
+	font-family: Arial Rounded MT, Arial, Sans-serif;
+	color: #d8d4d8;
+	clear: both;
+}
+
+div#main .photo {
+	float: left;
+	margin: 20px;
+}
+
+footer {
+	display: block;
+	background-color: #222523;
+	color: #d8d4d8;
+	font-size: 18px;
+	text-align: center;
+	padding: 0px;
+	clear: both;
+}
+
+
+/* Fluid Layout */
+
+div#container {
+	margin: 1em 5em;
+}
+
+#header {
+	height: 80%;
+}
+
+#nav {
+	margin: 2em 2em;
+	padding: 0px 7%;
+}
+
+div#main, div#secondary {
+	font-size: 1.25em;
+	padding: 1.5em;
+}
+
+footer {
+	height: 2em;
+}
+
+
+/* Responsive Layout */
+
+@media screen and (max-width: 875px)
+
+{
+
+	ul#nav {display: inline;
+			position: relative;
+			margin: 0;
+			padding: 0;
+}
+
+	#nav li {display: block;
+			width: 90%;
+			padding: 0;
+}
+
+	div#container {margin: 1em 10px;
+				height: auto;			
+}
+
+div#main {
+		width: auto;
+		margin: 15px;
+		height: auto;
+		position: relative;			
+}
+
+div#main span {
+	display: none;
+}
+
+#nav a:hover {
+  box-shadow: 0px 4px 3px black;     background-color: #8c908f;
+  border-width: thin;
+}
+
+#nav a:focus {
+  box-shadow: 0px 4px 3px black;
+  background-color: #8c908f;
+  border-width: thin;
+  font-size: 16px; }
+
+footer {clear: both; 
+}
+
+}
+
+@media screen and (max-width: 500px) {
+
+	div#container {height: 100%;
+}
+
+	div#header {height: auto;
+			width: auto;
+}
+
+ul#nav {
+	float: none;
+}
+
+}
+

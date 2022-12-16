@@ -1,0 +1,182 @@
+body {background-color: #212121;
+		background-image: none;}
+
+body img {
+	float: right;
+}
+
+div#container {
+	background-color: #4e342e;
+	margin: 1em 5em;
+	padding: 5px;
+	height: auto;
+	float: left;
+	width: 30%;
+	position: absolute;
+	left: -4em;
+}
+
+div#secondary {
+	float: right;
+	position: absolute;
+	left: 1000px;
+	top: 250px;
+	background-color: rgba(0, 0, 0, 0.75);
+	
+}
+
+#header {
+  background-color: #222523;
+  position: relative;
+  height: 80%;
+  color: #d8d4d8;
+  font-family: Candara, Arial, Sans-serif;
+}
+
+div#header {
+  display: block;
+  width: auto;
+  height: auto;
+  margin: 15px;
+  border: 5px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+	text-align: left;
+	font-size: 16px;
+	font-weight: lighter;
+}
+	
+
+#nav {
+	width: auto;
+	box-sizing: border-box;
+	margin: 2em 2em;
+	padding: 0px 7%;
+	float: left;
+}
+
+#nav a {
+  display: block;
+  height: auto;
+  text-align: center;
+  background-color: #6e7271;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+  position: relative;
+  padding: 10px;
+  margin: 5px;
+  border-style: ridge;
+  box-shadow: 0px 2px 3px black;
+}
+
+#nav li {
+  position: relative;
+	margin: auto;
+	width: 100%;
+	list-style: none;
+	font-family: Arial Rounded MT, Arial, Sans-serif;
+
+}
+
+li a:hover {
+  box-shadow: 0px 4px 3px black;
+}
+
+#nav a:hover {
+  box-shadow: 0px 4px 3px black;
+  background-color: #8c908f;
+  border-width: thin;
+  font-size: 22px;
+}
+
+#nav a:focus {
+  box-shadow: 0px 4px 3px black;
+  background-color: #8c908f;
+  border-width: thin;
+  font-size: 22px;
+}
+
+#main {
+	background-color: #222523;
+	font-family: Arial Rounded MT, Arial, Sans-serif;
+	color: #d8d4d8;
+	padding: 1.5em;
+	clear: both;
+}
+
+
+footer {
+	background-color: #212121;
+	clear: both;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 875px)
+
+{
+	#nav li {display: block;
+			width: 90%;
+			padding: 0;
+}
+
+
+	div#container {margin: 1em 10px;
+				height: auto;
+				left: 10%;
+				min-width: 350px;
+				
+}
+
+div#main {
+		width: auto;
+		margin: 15px;
+		height: auto;
+		position: relative;			
+}
+
+#nav a:focus {
+  box-shadow: 0px 4px 3px black;
+  background-color: #8c908f;
+  border-width: thin;
+  font-size: 16px; }
+
+footer {
+	clear: both;
+	position: absolute;
+	left: 40%;
+	top: 135%;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+
+	div#container {
+	height: 120%;
+	float: none;
+	min-width: 300px;
+	left: 15%;
+							
+}
+
+	div#header {height: auto;
+			width: auto;
+}
+
+ul#nav {
+	float: none;
+}
+
+footer {
+	left: 15%;
+	top: 125%;
+}
+
+}
+

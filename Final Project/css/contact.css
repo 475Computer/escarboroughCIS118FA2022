@@ -1,0 +1,11 @@
+form {
+    color: white;
+    font-family: Arial Rounded MT;
+    font-weight: lighter;
+    font-size: 1.3em;
+    padding: 1em;
+}
+
+form p:first-child {
+    border-bottom: 2px solid white;
+}

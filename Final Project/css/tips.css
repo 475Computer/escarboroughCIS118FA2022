@@ -1,0 +1,34 @@
+div#main img {
+	height: auto;
+	width: 40%;
+	float: right;
+	margin: 20px;
+}
+
+div#main dt {
+	font-size: 24px;
+	line-height: 48px;
+}
+
+div#main dd {
+	font-style: italic;
+}
+
+th, tr, td {
+    border: 1px solid black;
+    background-color: #3f3f3f;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: #747474;
+}
+
+@media screen and (max-width: 600px) {
+
+div#main img {
+	display: none;
+}
+
+}
